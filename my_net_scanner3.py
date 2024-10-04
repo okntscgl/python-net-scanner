@@ -22,4 +22,4 @@ def scan_my_network(ip):
 user_ip_address = get_user_input()
 scan_my_network(user_ip_address.ip_address)
 
-#python3 ile uyumludur hata verirse pip3 install scapy
+# Compatible with Python 3. If you encounter an error, run: pip3 install scapy
