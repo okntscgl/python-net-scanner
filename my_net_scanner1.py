@@ -3,8 +3,7 @@ import scapy.all as scapy
 # 1) arp request (like netdiscover)
 # 2) broadcast
 # 3) response
-# scapy.ls(.....) -> help komutunu çalıştırmak için yazıp sonrasındada öğrenmek istediğini
-# eklersen parametreleri görebilirsin
+# scapy.ls(.....) ->To run the help command, type the following, and then you can see the parameters you want to learn: 
 
 arp_request_packet = scapy.ARP(pdst="10.0.2.0/24")
 #scapy.ls(scapy.ARP())
